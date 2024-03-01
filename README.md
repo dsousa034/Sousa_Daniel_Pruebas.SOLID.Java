@@ -15,3 +15,13 @@ En el método main:
 2. *Matriz m = new Matriz(matriz);*: Se instancia un objeto de la clase Matriz utilizando el constructor definido, pasándole la matriz creada anteriormente.
 3. *m.imprimir();*: Se llama al método imprimir() en el objeto m, lo que imprime la matriz original en la consola.
 4. *m.transpuesta().imprimir();*: Se llama al método transpuesta() en el objeto m, lo que devuelve la matriz transpuesta. Luego se llama al método imprimir() en esta matriz transpuesta, imprimiéndola en la consola.
+
+
+## **2.Sistema de Gestión de Pedidos de Pizza en Línea:**
+El codigo Java representa un sistema de pedidos de pizzas en el que el usuario transmite por pantalla cada pizza que desee pedir, a partir de ahi el sistema lo que hara sera procesar esa informacion y cada uno de los precios para que al finañ, le transmita al usuario el precio que debera abonar correspondiente a su pedido. Los metodos y clases principales utilizados han sido los siguientes:
+
+1. DataBaseManager: Clase responsable de manejar la conexión con la base de datos y realizar operaciones CRUD.
+2. Authenticator: Clase utilizada para manejar la autenticación de usuarios.
+3. OrderManager: Clase encargada de la gestión de los pedidos, incluyendo la creación, actualización y eliminación de pedidos de los usuarios.
+4. PaymentProcessor: Clase responsable de manejar las transacciones de pago.
+5. 
