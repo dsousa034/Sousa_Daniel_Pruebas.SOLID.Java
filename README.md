@@ -24,4 +24,4 @@ El codigo Java representa un sistema de pedidos de pizzas en el que el usuario t
 2. Authenticator: Clase utilizada para manejar la autenticación de usuarios.
 3. OrderManager: Clase encargada de la gestión de los pedidos, incluyendo la creación, actualización y eliminación de pedidos de los usuarios.
 4. PaymentProcessor: Clase responsable de manejar las transacciones de pago.
-5. 
+
