@@ -4,10 +4,10 @@ El código Java define una clase llamada Matriz, que representa una matriz numé
 
 Aquí se muestra lo que hace cada metodo de la clase Matriz:
 
-*private int[][] matriz;*: Este es un campo privado que almacena los datos de la matriz como una matriz de enteros.
-1. *protected Matriz(int[][] matriz)*: Este es el constructor de la clase Matriz. Toma una matriz como argumento y la asigna al campo matriz.
-2. *protected void imprimir()*: Este método itera sobre cada elemento de la matriz e imprime su valor en la consola, organizando la salida en filas y columnas.
-3. *protected Matriz transpuesta()*: Este método calcula la transpuesta de la matriz actual. Crea una nueva matriz con las dimensiones intercambiadas y copia los elementos de la matriz original en las posiciones correspondientes para obtener la transpuesta. Luego devuelve una nueva instancia de Matriz con la matriz transpuesta.
+1. *private int[][] matriz;*: Este es un campo privado que almacena los datos de la matriz como una matriz de enteros.
+2. *protected Matriz(int[][] matriz)*: Este es el constructor de la clase Matriz. Toma una matriz como argumento y la asigna al campo matriz.
+3. *protected void imprimir()*: Este método itera sobre cada elemento de la matriz e imprime su valor en la consola, organizando la salida en filas y columnas.
+4. *protected Matriz transpuesta()*: Este método calcula la transpuesta de la matriz actual. Crea una nueva matriz con las dimensiones intercambiadas y copia los elementos de la matriz original en las posiciones correspondientes para obtener la transpuesta. Luego devuelve una nueva instancia de Matriz con la matriz transpuesta.
 
 En el método main:
 
